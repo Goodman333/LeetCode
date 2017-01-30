@@ -1,0 +1,2 @@
+# leetCode
+按照leetcode上acceptance从高到低来做的，希望能多做一点吧
