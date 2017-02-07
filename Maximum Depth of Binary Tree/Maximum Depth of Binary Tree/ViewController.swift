@@ -41,6 +41,7 @@ public class TreeNode {
 }
 
 class Solution {
+    ///用递归来找每个节点的左右叶子节点，直到都没有为止
     func maxDepth(_ root: TreeNode?) -> Int {
         if let node = root {
             return max(maxDepth(node.left), maxDepth(node.right)) + 1
